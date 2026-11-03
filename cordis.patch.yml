@@ -1,0 +1,5 @@
+# Inline Conversation View tabs: the Host half does nothing; the Client module
+# owns the header layout override.
+- insert:
+    - id: dsh-inline-view-tabs
+      name: dsh-inline-view-tabs

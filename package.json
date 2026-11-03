@@ -1,0 +1,62 @@
+{
+  "name": "dsh-inline-view-tabs",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness Web: move the Conversation View tabs (Chat / Trajectory) onto the header row, left of the right-side controls",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "cordis",
+    "ui",
+    "tabs",
+    "header"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "Shellexy",
+  "homepage": "https://github.com/shellexy/dsh-inline-view-tabs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellexy/dsh-inline-view-tabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shellexy/dsh-inline-view-tabs/issues"
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README_EN.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    },
+    "install": {
+      "preferred": "tarball",
+      "tarball": "https://github.com/shellexy/dsh-inline-view-tabs/archive/refs/heads/main.tar.gz",
+      "zip": "https://github.com/shellexy/dsh-inline-view-tabs/archive/refs/heads/main.zip",
+      "git": "https://github.com/shellexy/dsh-inline-view-tabs.git"
+    }
+  }
+}

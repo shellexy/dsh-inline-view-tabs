@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Inline view tabs">
+  <rect x="5.5" y="9.5" width="53" height="45" rx="9" fill="#f4f6ff" stroke="#4d6bfe" stroke-width="3"/>
+  <path d="M9 23h46" stroke="#c7cff5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M29 17h10.5" stroke="#4d6bfe" stroke-width="3" stroke-linecap="round"/>
+  <path d="M29 25h10.5" stroke="#4d6bfe" stroke-width="2" stroke-linecap="round"/>
+  <path d="M44 17h9" stroke="#aeb8dd" stroke-width="3" stroke-linecap="round"/>
+  <path d="M13 35h38" stroke="#c7cff5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M13 44h26" stroke="#c7cff5" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Inline View Tabs",
+    "description": "Places the Conversation View tabs (Chat / Trajectory) on the header's own row, reclaiming one row of height."
+  }
+}
