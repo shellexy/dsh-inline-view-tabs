@@ -2,7 +2,7 @@
 
 把 DeepSeek Harness Web 顶栏里单独占一行的会话视图标签（「对话」/「轨迹」，以及其它插件注册的视图）**并入顶栏同一行**，放在标题之后、右侧工具图标之前，省下一行高度。
 
-![顶栏效果：标题之后是「对话 / 轨迹」，再往右是工具图标与右侧栏开关](https://raw.githubusercontent.com/shellexy/dsh-inline-view-tabs/main/docs/header.png)
+![顶栏效果：标题之后是「对话 / 轨迹」，再往右是工具图标与右侧栏开关](https://raw.githubusercontent.com/shellexy/dsh-inline-view-tabs/main/docs/screenshot.webp)
 
 *安装后的顶栏：原来单独一行的「对话 / 轨迹」并入了这一行。*
 
