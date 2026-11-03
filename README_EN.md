@@ -2,6 +2,10 @@
 
 Brings the Conversation View tabs of DeepSeek Harness Web (Chat / Trajectory, plus any View another plugin registers) onto the header's own row, between the title and the right-side controls — reclaiming one row of height.
 
+![Header after install: Chat and Trajectory sit between the title and the right-side controls](https://raw.githubusercontent.com/shellexy/dsh-inline-view-tabs/main/docs/header.png)
+
+*Header after install: the Chat / Trajectory row is gone, folded into the header line.*
+
 ```text
 before:                            after:
 ┌──────────────────────────────┐   ┌──────────────────────────────────────┐
